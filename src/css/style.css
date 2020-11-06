@@ -1,0 +1,82 @@
+body{
+  background: #e9e9e9;
+}
+
+.container{
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar{
+  padding: 40px 35px;
+  color: white;
+  background:#00643b;
+}
+
+.myName{
+  text-align: center;
+}
+
+.myImg{
+  width:120px;
+}
+
+.myImg+p{
+  font-size: 28px;
+  padding-top: 28px;
+}
+
+.sideInfo{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.sideInfo a{
+  color: white;
+}
+
+.sidebar h4,.main h4{
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+}
+
+.honorItem{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main{
+  padding: 30px 35px;
+}
+
+.job{
+  font-weight: 600;
+  font-size: 22px;
+  color: #004c32;
+  text-align: center;
+}
+
+.main h4{
+  color:#00643b;
+}
+
+.itemTitle{
+  color: #004c32;
+  font-weight: 600;
+}
+
+.btn-outline-success{
+  height: 20px;
+  font-size: 10px;
+  padding: 0 6px;
+  margin-left:10px; 
+}
+
+li span{
+  font-size:18px;
+  font-weight: 600; 
+}
