@@ -1,0 +1,100 @@
+{
+  "id": "2187177",
+  "name": "简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4685764",
+      "name": "链接",
+      "font_class": "Group-",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "9940284",
+      "name": "skill",
+      "font_class": "skill",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "785052",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "16576841",
+      "name": "github",
+      "font_class": "github1",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "1301398",
+      "name": "咨询总结",
+      "font_class": "zixunzongjie",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "1648674",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "2155812",
+      "name": "奖章",
+      "font_class": "decoration_icon",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "3315084",
+      "name": "博客园",
+      "font_class": "bokeyuan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3819719",
+      "name": "总结",
+      "font_class": "zongjie",
+      "unicode": "e7b6",
+      "unicode_decimal": 59318
+    },
+    {
+      "icon_id": "5618153",
+      "name": "WEB前端",
+      "font_class": "WEBqianduan",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "5643541",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9007290",
+      "name": "教育",
+      "font_class": "jiaoyu",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "14559277",
+      "name": "代码",
+      "font_class": "daima",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
