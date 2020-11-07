@@ -2,13 +2,29 @@ body{
   background: #e9e9e9;
 }
 
+p{
+  font-size: 22px;
+  /* font-weight: bold; */
+  font-family:Microsoft YaHei;
+  margin-bottom:0px; 
+}
+
+ul{
+  margin-bottom:0px; 
+}
+
 .iconfont{
   margin-right:4px; 
   font-weight: 400;
 }
 
 .icon-decoration_icon,.icon-zixunzongjie,.icon-jiaoyu,.icon-daima{
-  font-size: 22px;
+  font-size: 30px;
+}
+
+.icon-zixunzongjie{
+  font-weight: 600;
+  font-size: 32px;
 }
 
 .icon-Group-{
@@ -17,14 +33,14 @@ body{
 }
 
 .icon-skill{
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .container{
   border-radius: 25px;
-  margin-top: 20px;
   margin-bottom: 20px;
+  /* max-width: 1200px; */
 }
 
 .sidebar{
@@ -42,49 +58,65 @@ body{
 }
 
 .myImg+p{
-  font-size: 28px;
+  font-size: 30px;
   padding-top: 28px;
 }
 
 .sideInfo{
   text-align: left;
   padding-top: 20px;
+  font-size: 22px;
 }
 
 .sideInfo a{
   color: white;
 }
 
-.sidebar h4,.main h4{
+.sideInfo span{
+  font-size: 22px;
+}
+
+.sidebar h3,.main h3{
   text-align: left;
   border-bottom: 1px solid;
   padding: 10px 0;
+  font-weight: 600;
+}
+
+.main h3{
+  color: #004c32;
 }
 
 .honorItem{
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .main{
   padding: 30px 35px;
+  background: white;
 }
 
 .job{
   font-weight: 600;
-  font-size: 22px;
+  font-size: 28px;
   color: #004c32;
   text-align: center;
 }
 
 .job span{
-  font-size: 22px;
+  font-size: 24px;
+  font-family: SimHei;
+}
+
+.job p{
+  font-size: 26px;
 }
 
 .main h4{
-  color:#00643b;
+  color:#007b43;
 }
 
 .itemTitle{
@@ -93,7 +125,6 @@ body{
 }
 
 .btn-outline-success{
-  height: 20px;
   font-size: 10px;
   padding: 0 6px;
   margin-left:10px; 
@@ -101,8 +132,8 @@ body{
 }
 
 li span{
-  font-size:18px;
-  font-weight: 600; 
+  font-size:23px;
+  font-weight: bolder; 
 }
 
 .article{
@@ -113,3 +144,16 @@ li span{
 .article:hover{
   color:#00643b;
 }
+
+.skill{
+  flex-wrap: wrap;
+}
+
+.skillItem{
+  font-size:20px; 
+}
+
+.skillItem :first-child{
+  font-size:40px; 
+}
+
