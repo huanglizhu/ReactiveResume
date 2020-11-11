@@ -1,3 +1,23 @@
+/* 打印的時候 */
+@media print {
+  @page {
+     /*A4: 210mm × 297mm，size: 794px × 1123px，0边距*/
+    /*171.9mm × 258.9mm，size：649px × 978px，19.05mm边距（ie浏览器默认打印边距） */
+       size: 210mm 297mm; 
+       margin:0mm;
+    }
+    /* 避免被识别成小屏幕进行响应式 */
+   .col-md-4{
+     width: 33.3%;
+   }
+  .col-md-8{
+    width: 66.7%;
+  }
+  .skillItem{
+    padding: 1mm;
+  }
+}
+
 body{
   background: #e9e9e9;
 }
@@ -43,9 +63,14 @@ ul{
 }
 
 .sidebar{
-  padding: 40px 35px;
+  padding: 30px 35px;
   color: white;
   background:#00643b;
+}
+
+.main{
+  padding: 20px 35px;
+  background: white;
 }
 
 .myName{
@@ -95,11 +120,6 @@ ul{
   justify-content: space-between;
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.main{
-  padding: 30px 35px;
-  background: white;
 }
 
 .job{
@@ -153,13 +173,13 @@ li span{
 
 .skill{
   flex-wrap: wrap;
-  padding-right: 16px;
+  /* padding-left: 2px; */
+  padding-right: 20px;
 }
 
 .skillItem{
-  font-size:16px; 
+  font-size:18px; 
   text-align: center;
-  /* overflow: hidden; */
 }
 
 .skillItem :first-child{
