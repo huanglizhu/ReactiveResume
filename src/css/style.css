@@ -28,7 +28,6 @@ ul{
 }
 
 .icon-Group-{
-  font-size: 10px;
   font-weight: 600;
 }
 
@@ -87,6 +86,10 @@ ul{
   color: #004c32;
 }
 
+.honorSection{
+  margin-bottom:16px; 
+}
+
 .honorItem{
   display: flex;
   justify-content: space-between;
@@ -126,11 +129,12 @@ ul{
   font-weight: 600;
 }
 
-.btn-outline-success{
-  font-size: 10px;
+.btn-outline-success,.btn-success{
+  font-size: 16px;
   padding: 0 6px;
   margin-left:10px; 
-  vertical-align: baseline;
+  vertical-align: text-bottom;
+  font-weight: 600;
 }
 
 li span{
@@ -149,13 +153,18 @@ li span{
 
 .skill{
   flex-wrap: wrap;
+  padding-right: 16px;
 }
 
 .skillItem{
-  font-size:20px; 
+  font-size:16px; 
+  text-align: center;
+  /* overflow: hidden; */
 }
 
 .skillItem :first-child{
   font-size:40px; 
 }
+
+
 
