@@ -7,18 +7,24 @@
        margin:0mm;
     }
     /* 避免被识别成小屏幕进行响应式 */
-   .col-md-4{
+   .col-md-3{
      width: 33.3%;
    }
-  .col-md-8{
+  .col-md-7{
     width: 66.7%;
   }
   .skillItem{
     padding: 1mm;
     font-size: 16px!important;
   }
-  a{
-    text-decoration:none;
+  .sideInfo,.sideInfo span{
+    font-size: 5.5mm!important
+  }
+  .myImg+p{
+    font-size: 7mm!important;
+  }
+  .honorItem{
+    font-size: 4.5mm!important;
   }
 }
 
@@ -40,7 +46,7 @@ body{
 }
 
 .main{
-  padding: 20px 35px;
+  padding: 30px 35px;
   background: white;
 }
 
@@ -49,14 +55,19 @@ a{
 }
 
 p{
-  font-size: 22px;
+  font-size: 18px;
   /* font-weight: bold; */
   font-family:Microsoft YaHei;
   margin-bottom:0px; 
+  margin-top:2px;
 }
 
 ul{
   margin-bottom:0px; 
+}
+
+li{
+  margin:10px 0; 
 }
 
 .iconfont{
@@ -65,7 +76,7 @@ ul{
 }
 
 .icon-decoration_icon,.icon-zixunzongjie,.icon-jiaoyu,.icon-daima{
-  font-size: 30px;
+  font-size:24px;
 }
 
 .icon-zixunzongjie{
@@ -75,10 +86,12 @@ ul{
 
 .icon-Group-{
   font-weight: 600;
+  font-size: 13px;
+
 }
 
 .icon-skill{
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -91,14 +104,14 @@ ul{
 }
 
 .myImg+p{
-  font-size: 30px;
+  font-size: 24px;
   padding-top: 28px;
 }
 
 .sideInfo{
   text-align: left;
   padding-top: 20px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .sideInfo a{
@@ -106,17 +119,17 @@ ul{
 }
 
 .sideInfo span{
-  font-size: 22px;
+  font-size: 16px;
 }
 
-.sidebar h3,.main h3{
+.sidebar h4,.main h4{
   text-align: left;
   border-bottom: 1px solid;
   padding: 10px 0;
   font-weight: 600;
 }
 
-.main h3{
+.main h4{
   color: #004c32;
 }
 
@@ -127,27 +140,26 @@ ul{
 .honorItem{
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .job{
   font-weight: 600;
-  font-size: 28px;
   color: #004c32;
   text-align: center;
 }
 
 .job span{
-  font-size: 24px;
+  font-size: 22px;
   font-family: SimHei;
 }
 
 .job p{
-  font-size: 26px;
+  font-size: 22px;
 }
 
-.main h4{
+.main h5{
   color:#007b43;
   margin-top: 8px;
   margin-bottom: 0;
@@ -159,7 +171,7 @@ ul{
 }
 
 .btn-outline-success,.btn-success{
-  font-size: 16px;
+  font-size: 13px;
   padding: 0 6px;
   margin-left:10px; 
   vertical-align: text-bottom;
@@ -167,7 +179,7 @@ ul{
 }
 
 li span{
-  font-size:23px;
+  font-size:19px;
   font-weight: bolder; 
 }
 
@@ -182,17 +194,17 @@ li span{
 
 .skill{
   flex-wrap: wrap;
-  /* padding-left: 2px; */
+  padding-left: 6px;
   padding-right: 20px;
 }
 
 .skillItem{
-  font-size:18px; 
+  font-size:14px; 
   text-align: center;
 }
 
 .skillItem :first-child{
-  font-size:40px; 
+  font-size:30px; 
 }
 
 
