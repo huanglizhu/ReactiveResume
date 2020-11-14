@@ -13,12 +13,15 @@
   .col-md-7{
     width: 66.7%;
   }
+  dd{
+    font-size: 5.4mm!important;
+  }
   .skillItem{
     padding: 1mm;
     font-size: 16px!important;
   }
   .sideInfo,.sideInfo span{
-    font-size: 5.5mm!important
+    font-size: 5.5mm!important;
   }
   .myImg+p{
     font-size: 7mm!important;
@@ -28,25 +31,34 @@
   }
 }
 
+header, section, footer, aside, nav, article, figure
+{
+    display: block;
+}
+
 body{
   background: #e9e9e9;
 }
 
+dd{
+  font-size: 17px;
+}
 
 .container{
   border-radius: 25px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   max-width: 1146px;
 }
 
 .sidebar{
-  padding: 30px 35px;
+  padding: 35px 35px;
   color: white;
   background:#00643b;
+  word-wrap: break-word;
 }
 
 .main{
-  padding: 30px 35px;
+  padding: 35px 35px;
   background: white;
 }
 
@@ -75,7 +87,12 @@ li{
   font-weight: 400;
 }
 
-.icon-decoration_icon,.icon-zixunzongjie,.icon-jiaoyu,.icon-daima{
+.col-4 .iconfont{
+  display: block;
+  margin: auto;
+}
+
+.icon-jiaoyu,.icon-daima{
   font-size:24px;
 }
 
@@ -91,7 +108,7 @@ li{
 }
 
 .icon-skill{
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -122,7 +139,23 @@ li{
   font-size: 16px;
 }
 
-.sidebar h4,.main h4{
+.icon-decoration_icon,.icon-zixunzongjie{
+  font-size: 22px;
+}
+
+.icon-gerenxinxi1{
+  font-size: 20px;
+}
+
+.sidebar h4{
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.main h4{
   text-align: left;
   border-bottom: 1px solid;
   padding: 10px 0;
@@ -194,8 +227,6 @@ li span{
 
 .skill{
   flex-wrap: wrap;
-  padding-left: 6px;
-  padding-right: 20px;
 }
 
 .skillItem{

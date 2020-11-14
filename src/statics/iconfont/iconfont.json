@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "570332",
+      "name": "个人信息",
+      "font_class": "gerenxinxi",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "720799",
+      "name": "个人信息",
+      "font_class": "gerenxinxi1",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "729340",
+      "name": "个人信息",
+      "font_class": "gerenxinxi2",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
       "icon_id": "5974404",
       "name": "Mock Test",
       "font_class": "MockTest",
