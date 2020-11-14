@@ -88,6 +88,7 @@ li{
 }
 
 .col-4 .iconfont{
+  /* 避免图标文字出现在一行 */
   display: block;
   margin: auto;
 }
