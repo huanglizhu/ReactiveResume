@@ -87,12 +87,6 @@ li{
   font-weight: 400;
 }
 
-.col-4 .iconfont{
-  /* 避免图标文字出现在一行 */
-  display: block;
-  margin: auto;
-}
-
 .icon-jiaoyu,.icon-daima{
   font-size:24px;
 }
@@ -235,8 +229,11 @@ li span{
   text-align: center;
 }
 
+/* 技能清单的图标 */
 .skillItem :first-child{
   font-size:30px; 
+  display: block;
+  margin: auto;
 }
 
 
