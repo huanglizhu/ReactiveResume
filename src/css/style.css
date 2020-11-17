@@ -51,14 +51,14 @@ dd{
 }
 
 .sidebar{
-  padding: 35px 35px;
+  padding: 42px 35px;
   color: white;
   background:#00643b;
   word-wrap: break-word;
 }
 
 .main{
-  padding: 35px 35px;
+  padding: 42px 35px;
   background: white;
 }
 
